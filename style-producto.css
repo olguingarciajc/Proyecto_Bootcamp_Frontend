@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+
+}
+
+img{
+    width: 100%;
+}
+
+.img-logo{
+    max-width: 6.5rem;
+    border-radius: 200px;
+    border: 0.3rem solid rgb(240, 16, 16);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #0b0b0b;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.abrir-menu,
+.cerrar-menu  {
+    display: none;
+
+}
+
+.caja-container{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+.caja-container.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container{
+
+    height: 8rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.container img{
+    max-width: 5rem;
+    margin: 1.1rem 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 12px;
+    align-items: center;
+    border: 0.1rem solid black;
+}
+.container.a-p{
+    display: flex;
+    font-weight: bold;
+    font-size: 0.81rem;
+}
+
+.a-comprar, .a-p{
+    color: #0b0b0b;
+}
+
+
+@keyframes polygon-in-opposing-corners {
+    from {
+    clip-path: polygon(0 0, 50% 50%, 100% 100%, 50% 50%);
+    }
+    to {
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    }
+}
+
+[transition-style="in:polygon:opposing-corners"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) polygon-in-opposing-corners both;
+}
+
+
+@media screen and (max-width: 550px){
+    .abrir-menu,
+    .cerrar-menu{
+    display: block;
+
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax black(0, 0, 0, .5);
+        opacity: 1;
+
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-list li a {
+        color: azure;
+    }
+}
+
