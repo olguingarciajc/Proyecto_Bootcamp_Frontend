@@ -75,7 +75,9 @@ header{
     .abrir-menu,
     .cerrar-menu{
     display: block;
-
+    border: 2rem;
+    font-size: 1.4rem;
+    background-color: transparent;
     }
 
     .nav{
