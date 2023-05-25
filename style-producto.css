@@ -66,7 +66,7 @@ header{
 
 .container{
 
-    height: 8rem;
+    height: 16.2rem;
     display: flex;
     align-content: space-between;
     flex-wrap: nowrap;
@@ -80,9 +80,9 @@ header{
     max-width: 5rem;
     margin: 1.1rem 0.5rem;
     padding-left: 0.5rem;
-    border-radius: 12px;
-    align-items: center;
-    border: 0.1rem solid black;
+    box-shadow: 3px 3px 3px #1f1f21;
+    align-items: center; 
+    
 }
 .container.a-p{
     display: flex;
@@ -151,3 +151,75 @@ header{
     }
 }
 
+/*Viewport 780px*/
+
+@media screen and (min-width: 780px){
+    .abrir-menu,
+    .cerrar-menu{
+    display: block;
+    border: 2rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    }
+
+    .container img{
+        max-width: 9rem;
+        margin: 1.1rem 0.5rem;
+        padding-left: 0.5rem;
+        box-shadow: 5px 5px 5px #1f1f21;
+        align-items: center; 
+        
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: hidden;
+    }
+
+
+    .nav-list li a {
+        gap: 12rem;
+        color: rgb(0, 0, 0);
+    }
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 1400px){
+    .abrir-menu,
+    .cerrar-menu{
+    display: block;
+    border: 2rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    }
+
+    .container img{
+        max-width: 12rem;
+        margin: 1.1rem 0.5rem;
+        padding-left: 0.5rem;
+        box-shadow: 5px 5px 5px #1f1f21;
+        align-items: center; 
+        
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: hidden;
+    }
+
+
+    .nav-list li a {
+        gap: 16rem;
+        color: rgb(0, 0, 0);
+    }
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
+}
