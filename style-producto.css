@@ -170,9 +170,21 @@ background-color: transparent;
     border: 0.3rem solid rgb(240, 16, 16);
 }
 
+.container{
+    height: 16rem;
+    
+    margin-left: 80px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9C46A;
+}
 
 .container img{
-    max-width: 9rem;
+    max-width: 7rem;
     
     box-shadow: 5px 5px 5px 5px #1f1f21;
     align-items: center; 
@@ -226,6 +238,18 @@ background-color: transparent;
     border: 0.3rem solid rgb(240, 16, 16);
 }
 
+.container{
+    height: 16rem;
+    width:max-content;
+    margin-left: 80px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9C46A;
+}
 
 .container img{
     max-width: 10rem;
