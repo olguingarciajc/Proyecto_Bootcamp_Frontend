@@ -27,11 +27,15 @@
 
     <section>
         <div class="container">
-            <form>
+            <form id="products" action="https://formspree.io/f/xvonnbbk" method="POST">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre"  >
                 <label for="email">Correo electrónico</label>
                 <input type="email" name="email" id="email">
-                <input type="text" name="nombre"  >
-                <label>Selecciona el producto de tu interés</label>
+                <label for="phone">Telefono</label>
+                <input type="text" name="phone">
+
+                <label>Selecciona el Escape de tu interes</label>
                 <select name="product-id" id="products-select">
                 </select>
                 <button>Enviar</button>
