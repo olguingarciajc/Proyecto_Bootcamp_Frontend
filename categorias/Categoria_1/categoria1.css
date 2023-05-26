@@ -96,6 +96,11 @@ header{
     font-size: 0.9rem;
 }
 
+label{
+    color: #0b0b0b;
+    
+}
+
 
 @keyframes polygon-in-opposing-corners {
     from {
