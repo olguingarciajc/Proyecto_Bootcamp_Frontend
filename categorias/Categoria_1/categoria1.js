@@ -16,26 +16,26 @@ let products = [
     id: 1,
     title: "Escape Deportivo Italika Ft-125"
     },
-    {
-    id: 2,
-    title: "Escape Deportivo Italika Ft-150"
-    },
-    {
-    id: 3,
-    title: "Escape Deportivo Italika Z-250"
-    },
-    {
-    id: 4,
-    title: "Escape Deportivo Vento 150"
-    },
-    {
-    id: 5,
-    title: "Escape Deportivo Yamaha YBR 125"
-    },
-    {
-    id: 6,
-    title: "Escape Fibra de Carbono Gixxer 250"
-    }
+        {
+        id: 2,
+        title: "Escape Deportivo Italika Ft-150"
+        },
+            {
+            id: 3,
+            title: "Escape Deportivo Italika Z-250"
+            },
+                {
+                id: 4,
+                title: "Escape Deportivo Vento 150"
+                },
+                    {
+                    id: 5,
+                    title: "Escape Deportivo Yamaha YBR 125"
+                    },
+                        {
+                        id: 6,
+                        title: "Escape Fibra de Carbono Gixxer 250"
+                        }
     ]
 
     console.log(products);
