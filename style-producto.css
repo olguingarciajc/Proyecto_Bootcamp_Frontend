@@ -5,12 +5,6 @@
     font-family: sans-serif;
 }
 
-body{
-    background-color: Canvas;
-    color: CanvasText;
-    color-scheme: light dark;
-
-}
 
 img{
     width: 100%;
@@ -66,7 +60,7 @@ header{
 
 .container{
 
-    height: 10rem;
+    height: 10.5rem;
     display: flex;
     align-content: space-between;
     flex-wrap: nowrap;
@@ -77,7 +71,7 @@ header{
 }
 
 .container img{
-    max-width: 5rem;
+    max-width: 3rem;
     margin: .80rem 0.5rem;
     padding-left: 0.5rem;
     box-shadow: 3px 3px 3px 3px #1f1f21;
@@ -111,7 +105,7 @@ header{
 }
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 375px){
     .abrir-menu,
     .cerrar-menu{
     display: block;
@@ -155,7 +149,7 @@ header{
 
 /*Viewport 780px*/
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 500px){
 .abrir-menu,
 .cerrar-menu{
 display: block;
@@ -165,7 +159,7 @@ background-color: transparent;
 }
 
 .img-logo{
-    max-width: 8rem;
+    max-width: 6rem;
     border-radius: 200px;
     border: 0.3rem solid rgb(240, 16, 16);
 }
@@ -184,7 +178,7 @@ background-color: transparent;
 }
 
 .container img{
-    max-width: 7rem;
+    max-width: 5rem;
     
     box-shadow: 5px 5px 5px 5px #1f1f21;
     align-items: center; 
