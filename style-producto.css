@@ -37,7 +37,7 @@ header{
     text-decoration: none;
     color: #f9f5f5;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .abrir-menu,
@@ -81,13 +81,13 @@ header{
 .container.a-p{
     display: flex;
     font-weight: bold;
-    font-size: 0.81rem;
+    font-size: 0.5rem;
     
 }
 
 .a-comprar, .a-p{
     color: #0b0b0b;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 
@@ -147,7 +147,7 @@ header{
     }
 }
 
-/*Viewport 780px*/
+/*Viewport 500px*/
 
 @media screen and (min-width: 500px){
 .abrir-menu,
