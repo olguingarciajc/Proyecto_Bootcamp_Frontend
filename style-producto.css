@@ -154,12 +154,12 @@ header{
 .cerrar-menu{
 display: block;
 border: 2rem;
-font-size: 1.4rem;
+font-size: 1.2rem;
 background-color: transparent;
 }
 
 .img-logo{
-    max-width: 6rem;
+    max-width: 5rem;
     border-radius: 200px;
     border: 0.3rem solid rgb(240, 16, 16);
 }
@@ -178,7 +178,7 @@ background-color: transparent;
 }
 
 .container img{
-    max-width: 5rem;
+    max-width: 4rem;
     
     box-shadow: 5px 5px 5px 5px #1f1f21;
     align-items: center; 
@@ -208,7 +208,7 @@ background-color: transparent;
 
 .a-comprar, .a-p{
     color: #0b0b0b;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-bottom: 20px;
     gap: 10px;
 }
