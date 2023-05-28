@@ -70,7 +70,7 @@ header{
 
 .container{
 
-    height: 21rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     background-color: #E9C46A;
