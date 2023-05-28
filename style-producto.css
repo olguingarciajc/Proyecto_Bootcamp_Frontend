@@ -47,37 +47,43 @@ header{
 }
 
 .caja-container{
+    height: 50rem;
+    width: 100%;
     background-color: #E9C46A;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+
 }
+
+
 
 .caja-container.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 3rem;
+
 
 }
 
 .container{
 
-    height: 10.5rem;
+    height: 21rem;
     display: flex;
-    align-content: space-between;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
     background-color: #E9C46A;
+    align-items: center;
 }
 
+
 .container img{
-    max-width: 3rem;
+    max-width: 7.2rem;
     margin: .80rem 0.5rem;
     padding-left: 0.5rem;
-    box-shadow: 3px 3px 3px 3px #1f1f21;
-    align-items: center; 
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #1f1f21;
+
     
 }
 .container.a-p{
@@ -90,6 +96,7 @@ header{
 .a-comprar, .a-p{
     color: #0b0b0b;
     font-size: 0.7rem;
+    text-align: center;
 }
 
 
