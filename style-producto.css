@@ -48,6 +48,8 @@ header{
 
 .caja-container{
     background-color: #E9C46A;
+    display: flex;
+    justify-content: center;
 }
 
 .caja-container.container{
