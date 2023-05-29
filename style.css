@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -83,20 +83,25 @@ header{
 }
 
 .banner{
-    max-width: 13rem;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
     animation-name: mover ;
     animation-duration: 2.5s;
-    
+    color: black;
+    text-align: left;
+    font-weight: bold;
 }
 
 .banner-2{
-    max-width: 18rem;
-    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     margin-left: 5rem;
     animation-name: mover ;
     animation-duration: 3.5s; 
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
 
 .floor{
