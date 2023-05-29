@@ -119,7 +119,7 @@ header {
 
 /******Viewport  máximo 500px**********/
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
     img {
         width: 100%;
