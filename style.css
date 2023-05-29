@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 body{
@@ -76,30 +77,30 @@ header{
 
 .motos{
     margin-top: 1rem;
-    margin-left: 3.5rem;
-    max-width: 21rem;
+    margin-left: 3.2rem;
+    max-width: 22rem;
     animation-name: mover ;
     animation-duration: 1.5s ;
 }
 
 .banner{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: 2rem;
     margin-left: 0.4rem;
     animation-name: mover ;
     animation-duration: 2.5s;
-    color: black;
+    color: #09203f;
     text-align: left;
     font-weight: bold;
 }
 
 .banner-2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
     margin-left: 5rem;
     animation-name: mover ;
     animation-duration: 3.5s; 
-    color: black;
+    color: #09203f;
     text-align: center;
     font-weight: bold;
 }
