@@ -120,18 +120,6 @@ header {
 /******Viewport  máximo 500px**********/
 
 @media screen and (max-width: 500px) {
-
-    img {
-        width: 100%;
-    }
-
-
-    .img-logo {
-        max-width: 7rem;
-        border-radius: 200px;
-        border: 0.3rem solid rgb(240, 16, 16);
-    }
-
     .abrir-menu,
     .cerrar-menu {
         display: block;
@@ -189,7 +177,7 @@ header {
 
 }
 
-/****************************************/
+/******Viewport 700px***************/
 
 @media screen and (min-width: 700px) {
     .abrir-menu
@@ -200,16 +188,11 @@ header {
         background-color: transparent;
     }
 
-    img {
-        width: 100%;
-    }
 
     .caja-container {
         display: flex;
 
     }
-
-
 
 
     .nav.visible {
@@ -218,9 +201,10 @@ header {
     }
 
     .nav-list li a {
+        font-size: 1.5rem;
         gap: 12rem;
         color: rgb(248, 247, 247);
-
+        
     }
 
     .abrir-menu, .cerrar-menu{
@@ -228,11 +212,20 @@ header {
     }
 
     .img-logo {
-        max-width: 8.2rem;
+        max-width: 8rem;
         border-radius: 200px;
         border: 0.3rem solid rgb(240, 16, 16);
     }
     
+    .container img {
+        max-width: 12rem;
+        margin: .80rem 0.5rem;
+        padding-left: 0.5rem;
+        border-radius: none;
+        box-shadow: 3.5px 3.5px 3.5px 3.5px #1f1f21;
+
+    }
+
 
     .container {
         height: 25rem;
@@ -246,14 +239,6 @@ header {
         row-gap: 5rem;
     }
 
-    .container img {
-        max-width: 12rem;
-        margin: .80rem 0.5rem;
-        padding-left: 0.5rem;
-        border-radius: none;
-        box-shadow: 3.5px 3.5px 3.5px 3.5px #1f1f21;
-
-    }
 
     .container.a-p {
         display: flex;
