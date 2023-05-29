@@ -35,7 +35,15 @@ let products = [
                         {
                         id: 6,
                         title: "Escape Fibra de Carbono Gixxer 250"
-                        }
+                        },
+                            {
+                                id: 7,
+                                title: "Escape Tornasol Italika DM200"
+                            },
+                                {
+                                    id: 8,
+                                    title: "Escape Flamas Italika Ft-125"
+                                }
     ]
 
     console.log(products);

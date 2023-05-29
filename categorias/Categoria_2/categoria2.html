@@ -15,7 +15,9 @@
 </head>
 <body>
     <header>
-        <img class="img-logo" src="/Proyecto Frontend/Proyecto_Bootcamp_Frontend/images/logo.jpg" alt="Logo" transition-style="in:polygon:opposing-corners">
+        <a href="/Proyecto_Bootcamp_Frontend/index.html">
+        <img class="img-logo" src="/Proyecto_Bootcamp_Frontend/images/logo.jpg" 
+        href="/Proyecto_Bootcamp_Frontend/index.html" alt="Logo" transition-style="in:polygon:opposing-corners"></a>
         <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
@@ -32,11 +34,11 @@
         <div class="container">
             <form id="products" action="https://formspree.io/f/xvonnbbk" method="POST">
                 <label for="nombre">Nombre Completo</label>
-                <input type="text" name="nombre"  >
+                <input type="text" name="nombre" required>
                 <label for="email">Correo electrónico</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <label for="phone">Telefono</label>
-                <input type="text" name="phone">
+                <input type="tel" name="telefono" required>
 
                 <label>Selecciona el Escape que deseas</label>
                 <select name="product-id" id="products-select">
