@@ -64,21 +64,39 @@ header{
 
 .container{
 
-    height: 26.2rem;
+    height: 30rem;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #FFFFFF;
     background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
-    
+    gap: 2px;
+
     
 }
 
 .motos{
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
     max-width: 18rem;
     animation-name: mover ;
     animation-duration: 1.5s ;
+}
+
+.banner{
+    max-width: 13rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    animation-name: mover ;
+    animation-duration: 2.5s;
+    
+}
+
+.banner-2{
+    max-width: 18rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    animation-name: mover ;
+    animation-duration: 3.5s; 
 }
 
 .floor{
