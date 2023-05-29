@@ -141,7 +141,7 @@ header {
         right: 0;
         bottom: 0;
         background-color: #2A9D8F;
-        padding: 1rem;
+        padding: 0.5rem;
         box-shadow: 0 0 0 100vmax black(0, 0, 0, .5);
         opacity: 1;
 
