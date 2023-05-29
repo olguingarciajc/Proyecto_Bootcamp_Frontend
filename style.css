@@ -75,17 +75,17 @@ header{
 }
 
 .motos{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 3.5rem;
-    max-width: 18rem;
+    max-width: 21rem;
     animation-name: mover ;
     animation-duration: 1.5s ;
 }
 
 .banner{
-    font-size: 1.72rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.4rem;
     animation-name: mover ;
     animation-duration: 2.5s;
     color: black;
@@ -94,7 +94,7 @@ header{
 }
 
 .banner-2{
-    font-size: 1.72rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     margin-left: 5rem;
     animation-name: mover ;
