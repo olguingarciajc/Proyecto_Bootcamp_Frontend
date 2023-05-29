@@ -117,7 +117,7 @@ header{
 
 /******Viewport 500px**********/
 
-@media screen and (min-width: 500px){
+@media screen and (max-width: 500px){
     .abrir-menu,
     .cerrar-menu{
     display: block;
