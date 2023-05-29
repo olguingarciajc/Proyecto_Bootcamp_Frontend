@@ -119,9 +119,9 @@ header{
     background-color: rgb(7, 7, 6);
 }
 
-h6{
+.registro{
     color: rgb(248, 245, 245);
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
     
@@ -210,6 +210,13 @@ h6{
         color: rgb(14, 13, 13);
     }
 
+    .nav-list li a{
+        text-decoration: none;
+        color: #f9f5f5;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
     .container{
 
         height: 40rem;
@@ -266,9 +273,9 @@ h6{
         background-color: rgb(7, 7, 6);
     }
     
-    h6{
+    .registro{
         color: rgb(248, 245, 245);
-        font-size: 1.5rem;
+        font-size: 0.9rem;
         font-weight: bold;
         text-align: center;
         
@@ -311,9 +318,16 @@ h6{
     display: none;
 }
 
+.nav-list li a{
+    text-decoration: none;
+    color: #f9f5f5;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .container{
 
-    height: 40rem;
+    height: 45rem;
     display: grid;
     grid-template-rows: repeat(4, max-width(auto));
     background-color: #FFFFFF;
@@ -367,9 +381,9 @@ h6{
     background-color: rgb(7, 7, 6);
 }
 
-h6{
+.registro{
     color: rgb(248, 245, 245);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     
@@ -377,7 +391,7 @@ h6{
 
 }
 
-/* Viewport 1300px*/
+/* Viewport 1200px*/
 
 @media screen and (min-width: 1200px){
 .abrir-menu,
@@ -410,6 +424,14 @@ background-color: transparent;
 .abrir-menu, .cerrar-menu{
     display: none;
 }
+
+.nav-list li a{
+    text-decoration: none;
+    color: #f9f5f5;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
 
 .container{
 
@@ -467,9 +489,9 @@ background-color: transparent;
     background-color: rgb(7, 7, 6);
 }
 
-h6{
+.registro{
     color: rgb(248, 245, 245);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
     

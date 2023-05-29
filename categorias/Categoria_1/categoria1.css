@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 body{
@@ -52,21 +53,10 @@ header{
 
 }
 
-.caja-container{
-    background-color: #E9C46A;
-}
-
-.caja-container.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
 
 .container{
 
-    height: 26.2rem;
+    height: 45rem;
     display: flex;
     align-content: space-between;
     flex-wrap: nowrap;
@@ -76,29 +66,27 @@ header{
     background-color: #E9C46A;
 }
 
-.container img{
-    max-width: 5rem;
-    margin: .80rem 0.5rem;
-    padding-left: 0.5rem;
-    box-shadow: 3px 3px 3px #1f1f21;
-    align-items: center; 
-    
-}
-.container.a-p{
+
+form{
     display: flex;
-    font-weight: bold;
-    font-size: 0.81rem;
-    
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 256px;
+    max-width: 300px;
+    font-size: 1.2rem;
 }
 
-.a-comprar, .a-p{
+label {
     color: #0b0b0b;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
-label{
-    color: #0b0b0b;
-    
+input, select{
+    font-size: 1.2rem;
+}
+
+button{
+    font-size: 1.2rem
 }
 
 
@@ -121,7 +109,7 @@ label{
     .cerrar-menu{
     display: block;
     border: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: transparent;
     }
 
@@ -156,6 +144,42 @@ label{
     .nav-list li a {
         color: rgb(14, 13, 13);
     }
+
+    
+.container{
+
+    height: 45rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9C46A;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 256px;
+    max-width: 300px;
+    font-size: 1.2rem;
+}
+
+label {
+    color: #0b0b0b;
+    font-size: 1.2rem;
+}
+
+input, select{
+    font-size: 1.2rem;
+}
+
+button{
+    font-size: 1.2rem
+}
 }
 
 /*Viewport 780px*/
@@ -165,7 +189,7 @@ label{
 .cerrar-menu{
 display: block;
 border: 2rem;
-font-size: 1.4rem;
+font-size: 1.8rem;
 background-color: transparent;
 }
 
@@ -177,13 +201,6 @@ background-color: transparent;
 
 
 
-.container img{
-    max-width: 9rem;
-    
-    box-shadow: 5px 5px 5px #1f1f21;
-    align-items: center; 
-    margin: 0 auto;
-}
 
 .nav.visible{
     opacity: 1;
@@ -200,17 +217,40 @@ background-color: transparent;
     display: none;
 }
 
-.container.a-p{
+.container{
+
+    height: 45rem;
     display: flex;
-    font-weight: bold;
-    
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9C46A;
 }
 
-.a-comprar, .a-p{
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 180px;
+    max-width: 300px;
+    font-size: 1.5rem;
+}
+
+label {
     color: #0b0b0b;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    gap: 10px;
+    font-size: 1.5rem;
+}
+
+input, select{
+    font-size: 1.5rem;
+}
+
+button{
+    font-size: 1.5rem
 }
 
 }
@@ -233,15 +273,6 @@ background-color: transparent;
 }
 
 
-.container img{
-    max-width: 10rem;
-    margin: 1.1rem 0.5rem;
-    padding-left: 0.5rem;
-    box-shadow: 5px 5px 5px #1f1f21;
-    align-items: center; 
-    
-}
-
 .nav.visible{
     opacity: 1;
     visibility: hidden;
@@ -258,21 +289,40 @@ background-color: transparent;
     display: none;
 }
 
-.container.a-p{
+.container{
+
+    height: 45rem;
     display: flex;
-    font-weight: bold;
-    font-size: 8rem;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9C46A;
 }
 
-.a-comprar, .a-p{
-    color: #0b0b0b;
-    font-size: 1.3rem;
-}    
-}
+
 
 form{
-    display:flex;
-    flex-direction:column;
-    gap:0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 240px;
     max-width: 300px;
+    font-size: 1.6rem;
+}
+
+label {
+    color: #0b0b0b;
+    font-size: 1.8rem;
+}
+
+input, select{
+    font-size: 1.8rem;
+}
+
+button{
+    font-size: 1.8rem
+}
+
 }

@@ -66,7 +66,7 @@ header{
 
 .container{
 
-    height: 26.2rem;
+    height: 40rem;
     display: flex;
     align-content: space-between;
     flex-wrap: nowrap;
@@ -96,6 +96,11 @@ header{
     font-size: 0.9rem;
 }
 
+label{
+    color: #0b0b0b;
+    
+}
+
 
 @keyframes polygon-in-opposing-corners {
     from {
@@ -116,7 +121,7 @@ header{
     .cerrar-menu{
     display: block;
     border: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: transparent;
     }
 
@@ -160,7 +165,7 @@ header{
 .cerrar-menu{
 display: block;
 border: 2rem;
-font-size: 1.4rem;
+font-size: 1.8rem;
 background-color: transparent;
 }
 
@@ -263,4 +268,11 @@ background-color: transparent;
     color: #0b0b0b;
     font-size: 1.3rem;
 }    
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:0.5em;
+    max-width: 300px;
 }
