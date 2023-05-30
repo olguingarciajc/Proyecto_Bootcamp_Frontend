@@ -14,37 +14,46 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Clutch Italika Ft-110"
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
+        {
+            id: 2,
+            title: "Clutch Italika Ft-180"
+        },
+            {
+                id: 3,
+                title: "Clutch Italika DM 200"
+            },
+                {
+                    id: 4,
+                    title: "Clutch Italika DM 250"
+                },
+                    {
+                        id: 5,
+                        title: "Clutch Italika Z-250"
+                    },
+                        {
+                            id: 6,
+                            title: "Clutch Vento 150"
+                        },
+                            {
+                                id: 7,
+                                title: "Cluch Honda XR 150"
+                            },
+                                {
+                                    id: 8,
+                                    title: "Clutch Honda Dio 150"
+                                },
+                                    {
+                                        id: 9,
+                                        title: "Clutch Zuzuki Gixxer 250"
+                                    },
+                                        {
+                                            id: 10,
+                                            title: "Clutch Yamaha XTZ 125"
+                                        }
+
+]
 
 console.log([products]);
 

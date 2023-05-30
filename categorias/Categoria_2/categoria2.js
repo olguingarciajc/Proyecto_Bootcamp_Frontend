@@ -43,7 +43,15 @@ let products = [
                                 {
                                     id: 8,
                                     title: "Balatas Traseras Honda XR 150"
-                                }
+                                },
+                                    {
+                                        id: 9,
+                                        title: "Balatas Traseras Vento 150"
+                                    },
+                                        {
+                                            id: 10,
+                                            title: "Balatas Trseras Vento 250"
+                                        }
     
 ]
 
