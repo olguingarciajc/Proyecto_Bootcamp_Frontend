@@ -169,7 +169,7 @@ header{
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (width <= 550px){
     .abrir-menu,
     .cerrar-menu{
     display: block;

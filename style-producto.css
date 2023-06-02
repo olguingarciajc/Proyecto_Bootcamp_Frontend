@@ -217,15 +217,6 @@ header {
         border: 0.3rem solid rgb(240, 16, 16);
     }
     
-    .container img {
-        max-width: 12rem;
-        margin: .80rem 0.5rem;
-        padding-left: 0.5rem;
-        border-radius: none;
-        box-shadow: 3.5px 3.5px 3.5px 3.5px #1f1f21;
-
-    }
-
 
     .container {
         height: 25rem;
@@ -236,9 +227,24 @@ header {
         flex-wrap: wrap;
         justify-content: space-around;
         grid-column-gap: 30rem;
-        row-gap: 5rem;
+        row-gap: 3rem;
     }
 
+    .container img {
+        display: grid;
+
+        row-gap: -20rem;
+        max-width: 9rem;
+        margin: 1.2rem 0.5rem;
+        padding-left: 0.5rem;
+        border-radius: none;
+        box-shadow: 3.5px 3.5px 3.5px 3.5px #1f1f21;
+        
+
+    }
+
+
+ 
 
     .container.a-p {
         display: flex;
@@ -249,6 +255,10 @@ header {
 
     .a-comprar,
     .a-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: -10px;
         color: #0b0b0b;
         font-size: 1.2rem;
         text-align: center;
@@ -298,7 +308,7 @@ header {
     }
     
     .container img {
-        max-width: 15.5rem;
+        max-width: 12rem;
         margin: .80rem 0.5rem;
         padding-left: 0.5rem;
         border-radius: none;
