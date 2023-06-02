@@ -177,9 +177,9 @@ header {
 
 }
 
-/******Viewport 700px***************/
+/******Viewport 820px***************/
 
-@media screen and (min-width: 700px) {
+@media screen and (width >= 820px) {
     .abrir-menu
     .cerrar-menu {
         display: block;
@@ -251,6 +251,86 @@ header {
     .a-p {
         color: #0b0b0b;
         font-size: 1.2rem;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: -20px;
+    }
+
+}
+
+/*******Viewport 1280px*****************/
+@media screen and (width >= 1280px) {
+    .abrir-menu
+    .cerrar-menu {
+        display: block;
+        border: 2rem;
+        font-size: 1.8rem;
+        background-color: transparent;
+    }
+
+
+    .caja-container {
+        display: flex;
+
+    }
+
+
+    .nav.visible {
+        opacity: 1;
+        visibility: hidden;
+    }
+
+    .nav-list li a {
+        font-size: 1.9rem;
+        gap: 10rem;
+        color: rgb(248, 247, 247);
+        
+    }
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
+    .img-logo {
+        max-width: 10rem;
+        border-radius: 200px;
+        border: 0.3rem solid rgb(240, 16, 16);
+    }
+    
+    .container img {
+        max-width: 15.5rem;
+        margin: .80rem 0.5rem;
+        padding-left: 0.5rem;
+        border-radius: none;
+        box-shadow: 3.5px 3.5px 3.5px 3.5px #1f1f21;
+
+    }
+
+
+    .container {
+        height: 35rem;
+        display: flex;
+        flex-direction: row;
+        background-color: #E9C46A;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        grid-column-gap: 30rem;
+        row-gap: 5rem;
+    }
+
+
+    .container.a-p {
+        display: flex;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: -50px;
+    }
+
+    .a-comprar,
+    .a-p {
+        color: #0b0b0b;
+        font-size: 1.5rem;
         text-align: center;
         font-weight: bold;
         margin-bottom: -20px;
