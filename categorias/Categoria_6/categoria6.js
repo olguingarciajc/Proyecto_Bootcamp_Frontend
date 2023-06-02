@@ -14,37 +14,18 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Regulador Italika Vortex 300"
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
+        {
+            id: 2,
+            title: "Regulador Honda XR 150"
+        },
+            {
+                id: 3,
+                title: "Regulador KTM Duke 250"
+            }
+
+]
 
 console.log([products]);
 

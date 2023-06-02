@@ -14,37 +14,46 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Bomba de Gasolina Yamaha XTZ 125"
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
+        {
+            id: 2,
+            title: "Bomba de Gasolina Yamaha FZ 125"
+        },
+            {
+                id: 3,
+                title: "Bomba de Gasolina Zuzuki Gixxer 250"
+            },
+                {
+                    id: 4,
+                    title: "Bomba de Gasolina Honda XR 150"
+                },
+                    {
+                        id: 5,
+                        title: "Bomba de Gasolina Honda Dio 150"
+                    },
+                        {
+                            id: 6,
+                            title: "Bomba de Gasolina Honda Cargo 150"
+                        },
+                            {
+                                id: 7,
+                                title: "Bomba de Gasolina Italika DM 250"
+                            },
+                                {
+                                    id: 8,
+                                    title: "Bomba de Gasolina Vento 250"
+                                },
+                                    {
+                                        id: 9,
+                                        title: "Bomba de Gasolina KTM Duke 250"
+                                    },
+                                        {
+                                            id: 10,
+                                            title: "Bomba de Gasolina Italika Ft-110"
+                                        }
+
+]
 
 console.log([products]);
 
