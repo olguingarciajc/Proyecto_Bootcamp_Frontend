@@ -238,7 +238,7 @@ header{
     }
     
     .banner{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-top: 2rem;
         margin-left: 0.4rem;
         animation-name: mover ;
@@ -249,9 +249,9 @@ header{
     }
     
     .banner-2{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 2rem;
-        margin-left: 7rem;
+        margin-left: 6.85rem;
         animation-name: mover ;
         animation-duration: 3.5s; 
         color: #09203f;
