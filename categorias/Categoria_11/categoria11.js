@@ -14,40 +14,21 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Llanta para pista KTM Duke 250"
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
-
-console.log([products]);
-
+        {
+            id: 2,
+            title: "Llanta Tachones Italika DM 200"
+        }, 
+            {
+                id: 3,
+                tittle: "Llanta Tachones Honda XR 150"
+            },
+                {
+                    id: 4,
+                    title: "Llanta Tachones Yamaha XTZ 125"
+                }
+]
 
 let selectControl = document.querySelector("#products-select");
 

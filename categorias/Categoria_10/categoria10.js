@@ -14,39 +14,19 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Rin Deportivo Italika Ft-110"
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
+        {
+            id: 2,
+            title: "Rin Deportivo Italika Z-250"
+        },
+            {
+                id: 3,
+                title: "Rin Deportivo Italika DM 200"
+            }
+]
 
-console.log([products]);
+
 
 
 let selectControl = document.querySelector("#products-select");
