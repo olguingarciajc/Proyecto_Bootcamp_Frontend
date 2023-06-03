@@ -26,8 +26,6 @@ let products = [
             }
 
 ]
-console.log([products]);
-
 
 let selectControl = document.querySelector("#products-select");
 

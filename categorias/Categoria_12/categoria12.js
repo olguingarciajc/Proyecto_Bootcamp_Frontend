@@ -14,39 +14,25 @@ cerrar.addEventListener("click", () => {
 let products = [
     {
         id: 1,
-        title: "Curso de JS",
-        precio: 100,
-        descripcion: "Buen curso"
+        title: "Faros Led 500 lms "
     },
-    {
-        id: 2,
-        title: "Curso de HTML",
-        precio: 100,
-        descripcion: "Super curso"
-    },
-    [
-    {
-        id: 3,
-        title: "Caja Grande",
-        precio: 100,
-        descripcion: "Buena Caja Grande"
-    },
-    {
-        id: 4,
-        title: "Caja Mediana",
-        precio: 100,
-        descripcion: "Buena Caja Mediana"
-    },
-    {
-        id: 5,
-        title: "Caja Chica",
-        precio: 100,
-        descripcion: "Buena Caja Chica"
-    }
-    ]
-].flat(Infinity)
-
-console.log([products]);
+        {
+            id: 2,
+            title: "Faros Led 700 lms"
+        },
+            {
+                id: 3,
+                title: "Faros led 800 lms"
+            },
+                {
+                    id: 4,
+                    title: "Faros led 900 lms"
+                },
+                    {
+                        id: 5,
+                        title: "Faros led 1000 lms"
+                    }
+]
 
 
 let selectControl = document.querySelector("#products-select");
