@@ -94,12 +94,32 @@ header{
 
 .lema{
     color: black;
-    margin-top: -11rem;
+    margin-top: -6rem;
+
     font-size: 1rem;
     text-align: center;
     animation-name: mover-text;
     animation-duration: 3s;
 }
+
+.lema2{
+    color: black;
+    margin-top: -11rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 3.5s;
+}
+
+.lema3{
+    color: black;
+    margin-top: -15rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 4s;
+}
+
 
 
 @keyframes polygon-in-opposing-corners {
