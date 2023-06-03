@@ -11,7 +11,7 @@ img{
 }
 
 .img-logo{
-    max-width: 6.5rem;
+    max-width: 6rem;
     border-radius: 200px;
     border: 0.3rem solid rgb(240, 16, 16);
 }
@@ -60,10 +60,37 @@ header{
 }
 
 .motos{
-    max-width: 5rem;
+    max-width: 7.5rem;
+    margin-top: -2rem;
+    margin-left: -2.5rem;
     animation-name: mover;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
+
+.motos2{
+    max-width: 7.9rem;
+    margin-top: -2rem;
+    margin-left: -2.5rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
+.motos3{
+    max-width: 8.1rem;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
+.motos4{
+    max-width: 8.2rem;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
 
 .lema{
     color: black;
@@ -84,6 +111,7 @@ header{
 [transition-style="in:polygon:opposing-corners"] {
     animation: 2.5s cubic-bezier(.25, 1, .30, 1) polygon-in-opposing-corners both;
 }
+
 
 @keyframes mover{
     0%{
@@ -181,10 +209,37 @@ background-color: transparent;
 }
 
 .motos{
-    max-width: 7.5rem;
+    max-width: 13rem;
+    margin-top: -2rem;
+    margin-left: -2.5rem;
     animation-name: mover;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
+
+.motos2{
+    max-width: 13.5rem;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
+.motos3{
+    max-width: 13.8rem;
+    margin-top: -2rem;
+    margin-left: -3rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
+.motos4{
+    max-width: 14rem;
+    margin-top: -2rem;
+    margin-left: -3.5rem;
+    animation-name: mover;
+    animation-duration: 1.5s;
+}
+
 
 .lema{
     color: black;
