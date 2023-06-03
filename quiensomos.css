@@ -94,8 +94,11 @@ header{
 
 .lema{
     color: black;
-    font-size: 2rem;
-
+    margin-top: -11rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 4s;
 }
 
 
@@ -130,12 +133,30 @@ header{
     }
 }
 
+@keyframes mover-text{
+    0%{
+        transform: translate(0);
+    }
+
+    50%{
+        transform: translate(125%, 15%);
+    }
+
+    75%{
+        transform: translate(-600%);
+    }
+
+    100%{
+        transform: translate(0);
+    }
+}
+
 @media screen and (max-width: 550px){
     .abrir-menu,
     .cerrar-menu{
     display: block;
     border: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: transparent;
     }
 
@@ -243,9 +264,11 @@ background-color: transparent;
 
 .lema{
     color: black;
-    font-size: 2rem;
-
+    margin-top: -11rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
+
 
 
 }
