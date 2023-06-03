@@ -55,14 +55,6 @@ header{
 
 
 
-.caja-container.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
 .container{
 
     height: 40rem;
