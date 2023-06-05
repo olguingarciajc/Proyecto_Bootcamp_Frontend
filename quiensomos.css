@@ -68,7 +68,7 @@ header{
 }
 
 .motos2{
-    max-width: 7.7rem;
+    max-width: 7.9rem;
     margin-top: -2rem;
     margin-left: -2.5rem;
     animation-name: mover;
@@ -76,17 +76,17 @@ header{
 }
 
 .motos3{
-    max-width: 7.8rem;
+    max-width: 8.1rem;
     margin-top: -2rem;
-    margin-left: -2.5rem;
+    margin-left: -2rem;
     animation-name: mover;
     animation-duration: 1.5s;
 }
 
 .motos4{
-    max-width: 8rem;
+    max-width: 8.2rem;
     margin-top: -2rem;
-    margin-left: -1.5rem;
+    margin-left: -2rem;
     animation-name: mover;
     animation-duration: 1.5s;
 }
@@ -94,9 +94,32 @@ header{
 
 .lema{
     color: black;
-    font-size: 2rem;
+    margin-top: -6rem;
 
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 3s;
 }
+
+.lema2{
+    color: black;
+    margin-top: -11rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 3.5s;
+}
+
+.lema3{
+    color: black;
+    margin-top: -15rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 4s;
+}
+
 
 
 @keyframes polygon-in-opposing-corners {
@@ -122,11 +145,29 @@ header{
     }
 
     50%{
-        transform: translate(900%);
+        transform: translate(1100%);
     }
 
     100%{
         transform: translate(100%);
+    }
+}
+
+@keyframes mover-text{
+    0%{
+        transform: translate(0);
+    }
+
+    50%{
+        transform: translate(125%, 15%);
+    }
+
+    75%{
+        transform: translate(-600%);
+    }
+
+    100%{
+        transform: translate(0);
     }
 }
 
@@ -135,7 +176,7 @@ header{
     .cerrar-menu{
     display: block;
     border: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: transparent;
     }
 
@@ -172,7 +213,7 @@ header{
     }
 }
 
-/*Viewport 780px*/
+/*Viewport 820px*/
 
 @media screen and (width >= 820px){
 .abrir-menu,
@@ -243,8 +284,30 @@ background-color: transparent;
 
 .lema{
     color: black;
-    font-size: 2rem;
+    margin-top: -6rem;
 
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 3s;
+}
+
+.lema2{
+    color: black;
+    margin-top: -11rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 3.5s;
+}
+
+.lema3{
+    color: black;
+    margin-top: -15rem;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: mover-text;
+    animation-duration: 4s;
 }
 
 
